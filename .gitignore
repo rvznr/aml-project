@@ -1,0 +1,16 @@
+# Geçici dosyalar
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+*.log
+
+# IDE / Sistem dosyaları
+.DS_Store
+.vscode/
+.env
+
+# Veri ve modeller (gizlilik için)
+data/
+models/
