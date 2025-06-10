@@ -42,7 +42,6 @@ pip install -r requirements.txt
 
 data/SAML-D.csv
 
-
 3. Run the main pipeline script:
 
 python scripts/aml_code_file.py
@@ -65,15 +64,18 @@ All models were evaluated using the following performance metrics:
 ## Sample Output
 
 --- XGBoost ---
-precision recall f1-score support
-0 0.99 0.95 0.97 30000
-1 0.21 0.78 0.33 100
+              precision    recall  f1-score   support
+           0       0.99       0.95      0.97     30000
+           1       0.21       0.78      0.33       100
+
 
 --- Overall Model Comparison ---
-            Model     Accuracy  Recall  Precision  F1 Score  ROC-AUC
-	0 Random Forest 0.96     0.85     0.35       0.50     0.91
-	1 XGBoost       0.95     0.82     0.31       0.45     0.89
-	2 LogisticREG   0.93     0.75     0.22       0.34     0.86
+| Model               | Accuracy | Recall | Precision | F1 Score | ROC-AUC |
+| ------------------- | -------- | ------ | --------- | -------- | ------- |
+| Random Forest       | 0.96     | 0.85   | 0.35      | 0.50     | 0.91    |
+| XGBoost             | 0.95     | 0.82   | 0.31      | 0.45     | 0.89    |
+| Logistic Regression | 0.93     | 0.75   | 0.22      | 0.34     | 0.86    |
+
 
 ## Team Members
 
