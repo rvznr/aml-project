@@ -20,15 +20,16 @@ Contents of the report include:
 ##  Project Structure
 
 aml-project/
-├── data/ # Input dataset (excluded from version control)
-│ └── SAML-D.csv
-├── scripts/
-│ └── aml_code_file.py # Main machine learning pipeline
-├── eda_outputs/ # Plots and visual outputs
+├── data/                         # Input dataset (excluded from version control)
+│   └── SAML-D.csv
+├── scripts/                      # Main machine learning pipeline
+│   └── aml_code_file.py
+├── eda_outputs/                  # Plots and visual outputs
 ├── AntiMoneyLaunderingReport.pdf # Final academic report
-├── README.md
-├── .gitignore
-└── requirements.txt
+├── README.md                     # Project documentation
+├── .gitignore                    # Git ignore rules
+└── requirements.txt              # Python dependencies
+
 
 ---
 
