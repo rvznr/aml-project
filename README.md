@@ -85,9 +85,14 @@ All models were evaluated using the following performance metrics:
 - Ravza Nur Şişik
 
 ## Data Disclaimer
+The dataset SAML-D.csv is not included in this repository for privacy and compliance reasons.
+To run the project, please obtain the dataset from the official source and place it in the data/ directory.
 
-The dataset (`SAML-D.csv`) is not included in the repository for privacy and compliance reasons. To run the project, you must obtain the dataset from the official source and place it in the `data/` directory.
-
+Citation:
+B. Oztas, D. Cetinkaya, F. Adedoyin, M. Budka, H. Dogan and G. Aksu,
+“Enhancing Anti-Money Laundering: Development of a Synthetic Transaction Monitoring Dataset,”
+2023 IEEE International Conference on e-Business Engineering (ICEBE), pp. 47–54, Nov. 2023.
+DOI: 10.1109/ICEBE59045.2023.00028
 
 ## License
 
